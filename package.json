@@ -1,0 +1,26 @@
+{
+  "name": "ths-theme",
+  "displayName": "ths-theme",
+  "description": "THS is a new theme for Visual Studio Code based on Dracula.",
+  "author": {
+    "name": "Thiago Souza",
+    "email": "dev@thiagosouza.com",
+    "url": "https://github.com/thiagodesouza"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "THS Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ths-theme-color-theme.json"
+      }
+    ]
+  }
+}
